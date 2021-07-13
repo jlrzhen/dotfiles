@@ -1,0 +1,55 @@
+!! URxvt Appearance
+URxvt.font: xft:SourceCodePro:style=Semibold:size=14
+URxvt.boldFont: xft:SourceCodePro:style=Bold:size=14
+URxvt.italicFont: xft:SourceCodePro:style=Semiboldit:size=14
+URxvt.boldItalicfont: xft:SourceCodePro:style=BoldIt:size=14
+URxvt.letterSpace: -1
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+!! URxvt Colour
+! special
+URxvt.foreground:   #e2e1eb
+URxvt.background:   #0e1f3f
+URxvt.cursorColor:  #e2e1eb
+
+! black
+URxvt.color0:       #17152a
+URxvt.color8:       #618dff
+
+! red
+URxvt.color1:       #201d38
+URxvt.color9:       #94bcff
+
+! green
+URxvt.color2:       #312d51
+URxvt.color10:      #8e6dff
+
+! yellow
+URxvt.color3:       #484375
+URxvt.color11:      #c19cf4
+
+! blue
+URxvt.color4:       #666096
+URxvt.color12:      #915db9
+
+! magenta
+URxvt.color5:       #8985b2
+URxvt.color13:      #8b1de1
+
+! cyan
+URxvt.color6:       #b3b0ce
+URxvt.color14:      #faceff
+
+! white
+URxvt.color7:       #e2e1ec
+URxvt.color15:      #f2a0ff
