@@ -1,5 +1,5 @@
 # Install packages
-sudo pacman -S openbox picom rofi
+sudo pacman -S openbox picom rofi stow
 
 # Install from AUR
 mkdir ~/Programs
