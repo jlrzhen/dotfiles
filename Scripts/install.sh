@@ -1,6 +1,10 @@
 # Install packages
 sudo pacman -S openbox picom rofi stow
 
+# Install fonts
+git clone https://github.com/adobe-fonts/source-code-pro ~/.local/share/fonts/source-code-pro
+fc-cache
+
 # Install from AUR
 mkdir ~/Programs
 # cava
