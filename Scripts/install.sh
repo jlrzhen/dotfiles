@@ -13,3 +13,12 @@ git clone https://aur.archlinux.org/cava.git ~/Programs/cava
 # polybar
 git clone https://aur.archlinux.org/polybar.git ~/Programs/polybar
 (cd ~/Programs/polybar && makepkg -si)
+
+# dotfiles
+(cd ../ && stow Wallpapers)
+(cd ../ && stow Xresources)
+(cd ../ && stow cava)
+(cd ../ && stow openbox)
+(cd ../ && stow picom)
+(cd ../ && stow polybar)
+(cd ../ && stow rofi)
