@@ -10,6 +10,7 @@ mkdir ~/Programs
 # cava
 git clone https://aur.archlinux.org/cava.git ~/Programs/cava
 (cd ~/Programs/cava && makepkg -si)
+sudo modprobe snd_aloop
 # polybar
 git clone https://aur.archlinux.org/polybar.git ~/Programs/polybar
 (cd ~/Programs/polybar && makepkg -si)
