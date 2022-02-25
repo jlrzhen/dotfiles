@@ -1,3 +1,7 @@
+# configure localtime (temp fix)
+sudo rm -rf /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Canada/Central /etc/localtime
+
 # Install packages
 sudo pacman --noconfirm -S base-devel openbox picom rofi stow feh rxvt-unicode neofetch
 
@@ -23,3 +27,7 @@ git clone https://aur.archlinux.org/polybar.git ~/Programs/polybar
 (cd ../ && stow picom)
 (cd ../ && stow polybar)
 (cd ../ && stow rofi)
+
+# virtualbox guest additions
+sudo pacman -S virtualbox-guest-utils
+sudo systemctl enable vboxservice
