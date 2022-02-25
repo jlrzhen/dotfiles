@@ -1,5 +1,5 @@
 # Install packages
-sudo pacman --noconfirm -S base-devel openbox picom rofi stow
+sudo pacman --noconfirm -S base-devel openbox picom rofi stow feh rxvt-unicode neofetch
 
 # Install fonts
 git clone https://github.com/adobe-fonts/source-code-pro ~/.local/share/fonts/source-code-pro
