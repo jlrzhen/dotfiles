@@ -17,7 +17,7 @@ git clone https://aur.archlinux.org/polybar.git ~/Programs/polybar
 
 # dotfiles
 (cd ../ && stow Wallpapers)
-(cd ../ && stow Xresources)
+(cd ../ && stow Xorg)
 (cd ../ && stow cava)
 (cd ../ && stow openbox)
 (cd ../ && stow picom)
