@@ -3,7 +3,7 @@ sudo rm -rf /etc/localtime
 sudo ln -sf /usr/share/zoneinfo/Canada/Central /etc/localtime
 
 # Install packages
-sudo pacman --noconfirm -S base-devel openbox picom rofi stow feh rxvt-unicode neofetch
+sudo pacman --noconfirm -S base-devel openbox obconf picom rofi stow feh rxvt-unicode neofetch
 
 # Install fonts
 git clone https://github.com/adobe-fonts/source-code-pro ~/.local/share/fonts/source-code-pro
