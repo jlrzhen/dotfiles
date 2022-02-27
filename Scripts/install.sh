@@ -7,6 +7,7 @@ sudo pacman --noconfirm -S base-devel openbox obconf picom rofi stow feh rxvt-un
 
 # Install fonts
 git clone https://github.com/adobe-fonts/source-code-pro ~/.local/share/fonts/source-code-pro
+git clone https://github.com/stark/siji ~/.local/share/fonts/siji
 fc-cache
 
 # Install from AUR
